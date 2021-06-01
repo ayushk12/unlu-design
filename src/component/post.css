@@ -1,0 +1,25 @@
+.blog-list {
+  background: rebeccapurple;
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  box-shadow: 3px 5px 5px;
+}
+.container {
+  width: 96%;
+  margin: 1em auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.5em;
+}
+
+.imgWidth {
+  float: left;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
